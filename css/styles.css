@@ -560,9 +560,13 @@ img {
   color:white;
   text-decoration: none;
   white-space: nowrap;
+  transition: color 0.4s ease;
 }
 
-
+.footer__list a:hover{
+  
+   color:rgba(255, 255, 255, 0.7);
+}
 .footer{
   background: #2C343E;
 
@@ -580,6 +584,15 @@ cursor: pointer;
   align-items: center;
   list-style: none;
   width: 20%;
+}
+
+.footer__social__item img{
+  transition: background-color 0.4s ease-in;
+  border-radius:20px;
+}
+.footer__social__link img:hover{
+ background-color: #19B100;
+ display: flex;
 }
 
 @media
@@ -863,7 +876,7 @@ only screen and (                min-resolution: 2dppx) {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 16px;
+    
   }
   .container .footer__social__list{
     width: 90%;
