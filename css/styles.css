@@ -534,6 +534,54 @@ img {
 }
 
 
+
+  /* footer */
+
+  .footer__list{
+    font-family: "Poppins", "Arial" ,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-right: auto;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+.footer__box{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+} 
+.footer__list a{
+  font-family: "Poppins", "Arial" ,sans-serif;
+  color:white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
+.footer{
+  background: #2C343E;
+
+}
+.footer__img{
+  display: flex;
+  width: 120px;
+cursor: pointer;
+}
+
+.footer__social__list{
+  font-family: "Poppins", "Arial" ,sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 20%;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -655,6 +703,20 @@ only screen and (                min-resolution: 2dppx) {
     cursor: pointer;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .site-header__toggler-icon {
     display: block;
     max-width: 12px !important;
@@ -729,6 +791,18 @@ only screen and (                min-resolution: 2dppx) {
   .registration-form__submit {
     margin-top: 0;
   }
+  .footer__list a{
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .footer__box{
+    flex-wrap: wrap;
+  }
+
+  .footer__social__link img{
+    width: 20px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -738,6 +812,8 @@ only screen and (                min-resolution: 2dppx) {
     padding-bottom: 30px;
     margin-right: 0;
   }
+
+ 
 
   .hero__img {
     display: none;
@@ -777,7 +853,25 @@ only screen and (                min-resolution: 2dppx) {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-
+  .footer__box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__list{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+  }
+  .container .footer__social__list{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
   .site-header__logo {
     margin-right: auto;
   }
@@ -807,3 +901,4 @@ only screen and (                min-resolution: 2dppx) {
     font-size: 18px;
   }
 }
+
