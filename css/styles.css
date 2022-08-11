@@ -84,7 +84,9 @@ img {
   margin-right: auto;
 }
 
-
+.site-header__logo-img{
+  display: flex;
+}
 /* BUTTON */
 .button {
   display: inline-block;
@@ -651,7 +653,8 @@ only screen and (                min-resolution: 2dppx) {
 
   .site-header__toggler-icon {
     display: block;
-    min-width: 24px;
+    max-width: 24px !important;
+    max-height: 24px !important;
   }
 
   .sitenav__list {
