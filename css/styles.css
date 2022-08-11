@@ -580,10 +580,11 @@ cursor: pointer;
 .footer__social__list{
   font-family: "Poppins", "Arial" ,sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
   width: 20%;
+  padding: 0 20px;
 }
 
 .footer__social__item img{
