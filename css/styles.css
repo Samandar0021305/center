@@ -653,8 +653,8 @@ only screen and (                min-resolution: 2dppx) {
 
   .site-header__toggler-icon {
     display: block;
-    max-width: 24px !important;
-    max-height: 24px !important;
+    max-width: 12px !important;
+    max-height: 12px !important;
   }
 
   .sitenav__list {
