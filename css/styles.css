@@ -643,7 +643,11 @@ only screen and (                min-resolution: 2dppx) {
 
   .site-header__toggler {
     display: block;
-    padding: 8px 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 54px;
+    margin-top: 20px;
+    /* padding: 2px 16px; */
     border: 1px solid #000;
     border-radius: 8px;
     margin-left: 30px;
@@ -654,7 +658,7 @@ only screen and (                min-resolution: 2dppx) {
   .site-header__toggler-icon {
     display: block;
     max-width: 12px !important;
-    max-height: 12px !important;
+    max-height: px !important;
   }
 
   .sitenav__list {
