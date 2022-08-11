@@ -600,6 +600,8 @@ cursor: pointer;
   transition: all 1s linear;
 }
 
+
+
 .lds-hourglass {
   display: inline-block;
   position: relative;
